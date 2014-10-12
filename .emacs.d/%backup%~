@@ -1,0 +1,4 @@
+  File "eps_ver3.py", line 42
+    writer.writerow([p]+map(lambda x,y: x/y if y!=0.0 else 0.0, personnel_list[p][1], personnel_list[p][0]])
+                                                                                                          ^
+SyntaxError: invalid syntax
