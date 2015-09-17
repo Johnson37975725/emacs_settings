@@ -1,0 +1,8 @@
+# ignore command history of eshell
+.emacs.d/eshell/*
+
+# ignore contents of auto-save-list directory
+.emacs.d/auto-save-list/*
+
+# sessions are ignored
+.emacs.d/session.*
