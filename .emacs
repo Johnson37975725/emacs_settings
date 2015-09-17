@@ -114,7 +114,3 @@
 
 ;; disable ruby-insert-encoding-magic-comment
 (setq ruby-insert-encoding-magic-comment nil)
-
-;; add functions to visualise the hiearchy of indentation
-(add-to-list 'load-path "~/.emacs.d/vendor/Highlight-Indentation-for-Emacs")
-(require 'highlight-indentation)
